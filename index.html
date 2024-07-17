@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sands v7</title>
+    <!-- Start of LiveChat (www.livechat.com) code -->
+    <!-- End of LiveChat code -->
+
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <style>
+      /* #app {
+            margin: 0;
+            max-width: 576px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-x: hidden;
+        } */
+    </style>
+
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      // check change language
+      setInterval(() => {
+        // get title of page
+        let title = document.title;
+        // check if title is not equal to Sands v7
+        if (title !== 'Sands v7') {
+          // set title to Sands v7
+          document.title = 'Sands v7';
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
